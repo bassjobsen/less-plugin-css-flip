@@ -1,0 +1,40 @@
+{
+    "name": "less-plugin-css-flip",
+    "version": "0.0.1",
+    "description": "css-flip plugin for less.js",
+    "homepage": "https://github.com/bassjobsen/less-plugin-css-flip/",
+    "author": {
+        "name": "Bass Jobsen"
+    },
+    "contributors": [
+        ""
+    ],
+    "bugs": {
+        "url": "https://github.com/bassjobsen/less-plugin-css-flip/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bassjobsen/less-plugin-css-flip.git"
+    },
+    "licenses": [
+        {
+            "type": "Apache v2",
+            "url": "https://github.com/bassjobsen/less-plugin-css-flip/blob/master/LICENSE"
+        }
+    ],
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=0.4.2"
+    },
+	"dependencies": {
+		"css-flip": ">=0.5.0",
+		"rework": ">=1.0.1"
+	},
+    "devDependencies": {
+    },
+    "keywords": [
+        "less plugins",
+        "css-flip",
+		"BiDi"
+    ]
+}
